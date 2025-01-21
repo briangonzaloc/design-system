@@ -1,0 +1,15 @@
+@use '../../styles/global.scss' as *;
+
+.button {
+  background-color: $black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--font-family);
+
+  &:hover {
+    background-color: var(--primary-hover-color);
+  }
+}
