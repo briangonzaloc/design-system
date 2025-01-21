@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["react", "react-dom"],
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["global.d.ts", "src/**/*", "fonts"],
+  "exclude": ["node_modules", "**/*.stories.*"]
+}
