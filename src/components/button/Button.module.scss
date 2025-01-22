@@ -8,6 +8,21 @@
   border-radius: 5px;
   cursor: pointer;
   font-family: $font-family;
+}
+
+.primary {
+  background-color: $primary-color;
+  color: white;
+
+  &:hover {
+    background-color: $primary-hover-color;
+  }
+}
+
+.secondary {
+  background-color: white;
+  color: $primary-color;
+  border: 1px solid $primary-color;
 
   &:hover {
     background-color: $primary-hover-color;

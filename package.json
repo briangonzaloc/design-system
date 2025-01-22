@@ -1,6 +1,6 @@
 {
   "name": "@briangonzaloc/design-system",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "design system components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,6 +21,7 @@
     "access": "public"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

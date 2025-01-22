@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 import styles from './Button.module.scss';
+import clsx from 'clsx';
 
 interface ButtonProps {
-  label: string;
+  variant?: 'primary' | 'secondary';
 }
 
-export const Button: React.FC<ButtonProps> = ({ label }) => {
-  return <button className={styles.button}>{label}</button>;
+export const Button: React.FC<PropsWithChildren<ButtonProps>> = ({ children, variant = 'primary' }) => {
+  return (
+    <button
+      className={clsx(styles.button, {
+        [styles['primary']]: variant === 'primary',
+        [styles['secondary']]: variant === 'secondary',
+      })}
+    >
+      {children}
+    </button>
+  );
 };
