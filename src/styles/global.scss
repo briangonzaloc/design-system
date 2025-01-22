@@ -28,19 +28,25 @@
   font-style: normal;
   font-display: swap;
 }
+
 $black: #000;
+$primary-color: red;
+$primary-hover-color: darkblue;
+$text-color: #000000;
+$background-color: #ffffff;
+$font-family: 'Outfit', sans-serif;
 
-:root {
-  --primary-color: red;
-  --primary-hover-color: darkblue;
-  --background-color: #ffffff;
-  --text-color: #000000;
-  --font-family: 'Outfit', sans-serif;
-}
+// :root {
+//   --primary-color: red;
+//   --primary-hover-color: darkblue;
+//   --background-color: #ffffff;
+//   --text-color: #000000;
+//   --font-family: 'Outfit', sans-serif;
+// }
 
-body {
-  margin: 0;
-  font-family: var(--font-family);
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
+// body {
+//   margin: 0;
+//   font-family: $font-family;
+//   background-color: $background-color;
+//   color: $text-color;
+// }

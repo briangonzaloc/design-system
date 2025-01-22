@@ -7,9 +7,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-family: var(--font-family);
+  font-family: $font-family;
 
   &:hover {
-    background-color: var(--primary-hover-color);
+    background-color: $primary-hover-color;
   }
 }
